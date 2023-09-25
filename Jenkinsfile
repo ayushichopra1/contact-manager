@@ -1,8 +1,5 @@
 pipeline {
 	agent any
-	environment {
-		mavenHome = tool 'my-maven'
-	}
 
 	stages {
 		stage('Build'){
