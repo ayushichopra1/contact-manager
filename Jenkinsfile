@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Build'){
 			tools{
-				maven 'my-maven'
+				maven 'my-maven' 
 			}
 			steps {
 				sh "mvn -v"
