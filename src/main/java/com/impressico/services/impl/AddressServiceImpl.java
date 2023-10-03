@@ -29,20 +29,16 @@ public class AddressServiceImpl implements AddressService {
 
 	@Override
 	public Address getAddress(Integer id) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Address updateAddress(Integer id, Address address) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public void deleteAddress(Integer id) {
-		// TODO Auto-generated method stub
-
 	}
 
 }
